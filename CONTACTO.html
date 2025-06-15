@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+</head>
+<body bgcolor="#f2f3f8">
+    <link rel="stylesheet" href="col.css"
+
+    <div>
+        <header style="background-color: rgb(115, 138, 212);">
+             <div id="encabezado"> 
+            <div id="arriba"> 
+            <img id="luismiguel" src="ChatGPT Image 14 jun 2025, 08_18_00 p.m..png" width="150px" height="150px">
+           </div>
+            <div id="encabezado"> <h1 id="texto1"> SITIO PARA LA PALETERIA </h1>
+                <h2 id="texto2"> MÁS AMADA DE MÉXICO </h2>
+                <h3 id="texto3"> CONTACTO</h3> 
+        </header>
+    </div>
+
+<nav>
+      <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li>
+          <a href="SERVICIOS.html">Servicios</a>
+          <ul class="submenu">
+            <li><a href="CONTACTO.html">Contacto</a></li>
+          </ul>
+        </li>
+        <li><a href="NOSOTROS.html">Nosotros</a></li>
+      </ul>
+    </nav>
+
+    <div id="izquierdo"></div>
+    <div id="derecho"></div>
+
+<br></br>
+    <div id="ENTRADA"> <h2 id="texto1"> QUIERES HACER TU PEDIDO A DOMICILIO? </h1>
+        <h3 id="texto2"> RELLENA LOS DATOS DEBAJO, TE COMUNICAREMOS CON NUESTRA SUCURSAL MAS CERCANA</h2>
+    </div>
+    <br></br>
+
+    <center>
+        <form>
+        <label> Nombre:</label>
+        <input type="text" size="70" name="nombre" required >
+        <br></br>
+
+        <label> Estado:  <select id="miSelect">
+          <option value="opcion3">Jalisco</option>
+          <option value="opcion1">Michoacán</option>
+          <option value="opcion2">Yucatán</option>
+           <option value="opcion3">Chiapas</option>
+          <option value="opcion1">Sonora</option>
+          <option value="opcion2">B.California</option>
+           <option value="opcion3">Nuevo León</option>
+          <option value="opcion1">Guerrero</option>
+          <option value="opcion2">Sinaloa</option>
+           <option value="opcion3">Guanajuato</option>
+          <option value="opcion1">Tamaulipas</option>
+          <option value="opcion2">CDMX</option>
+           <option value="opcion3">Hidalgo</option>
+          <option value="opcion1">Tlaxcala</option>
+          <option value="opcion2">Coahuila</option>
+           <option value="opcion3">Tabasco</option>
+          <option value="opcion1">Nayarit</option>
+          <option value="opcion2">Quintana Roo</option>
+           <option value="opcion3">Morelos</option>
+          <option value="opcion1">B.California Sur</option>
+          <option value="opcion2">Durango</option>
+           <option value="opcion3">Puebla</option>
+          <option value="opcion1">Veracruz</option>
+          <option value="opcion2">Oaxaca</option>
+           <option value="opcion3">Queretaro</option>
+          <option value="opcion1">Chihuahua</option>
+          <option value="opcion2">San Luis Potosí</option>
+           <option value="opcion3">Zacatecas</option>
+          <option value="opcion1">Aguas Calientes</option>
+          <option value="opcion2">Colima</option>
+          <option value="opcion2">Campeche</option>
+        </select>
+<script>
+  const select = document.getElementById("miSelect");
+  const seleccionSpan = document.getElementById("seleccion");
+
+  // Obtener las opciones y ordenarlas alfabéticamente
+  const opciones = Array.from(select.options);
+  opciones.sort((a, b) => a.text.localeCompare(b.text));
+
+  // Limpiar el select y agregar las opciones ordenadas
+  select.innerHTML = "";
+  opciones.forEach(opcion => select.add(opcion));
+
+  // Mostrar la opción seleccionada por defecto
+  seleccionSpan.textContent = select.options[select.selectedIndex].text;
+
+  // Actualizar la selección al cambiar la opción
+  select.addEventListener("change", function() {
+    seleccionSpan.textContent = this.options[this.selectedIndex].text;
+  });
+</script>
+
+</label>
+         
+
+        <label> Direccion:</label>
+        <input type="text" size="90" name="direccion" required> 
+        <br></br>
+
+
+        <label> Numero:</label>
+        <input type="num" size="10" name="num" required> 
+        <br></br>
+
+        <label> Orden:</label>
+        <input type="text" size="90" name="orden" required> 
+        <br></br>
+
+       <input type="submit" value="Enviar" >
+        <h3 id="texto2"> SI NO LLEGA ANTES DE 30 MINUTOS, EL ENVIO ES GRATIS!</h3>
+         </form>
+        
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+    </center>
+
+    <footer>
+    <div id="pie">
+        <div id="texto5">
+            <CENTER>
+                <h3>Contáctanos</h3>
+  <p>¿Tienes dudas o quieres hacer un pedido especial? ¡Escríbenos!</p>
+
+  <p>
+    📍 <strong>Ubicación:</strong> Callejón Jesús te Ampare 
+    📞 <strong>Teléfono:</strong> (228) 1234-5678  
+    📧 <strong>Email:</strong> paletaseriaelsoldemexico@gmail.com.com  
+    📱 <strong>WhatsApp:</strong> (228) 1234-5678
+  </p>
+
+  <div style="margin-top: 1em;">
+    <a href="https://www.facebook.com/paleteriadeliciosas" target="_blank">Facebook</a> |
+    <a href="https://www.instagram.com/paleteriadeliciosas" target="_blank">Instagram</a> |
+    <a href="https://wa.me/525598765432" target="_blank">WhatsApp</a>
+  </div>
+
+  <p style="margin-top: 2em; font-size: 0.9em; color: #777;">
+    © 2025 Paletería El Sol de México. Todos los derechos reservados.
+  </p>
+   </CENTER> 
+</div>
+    </div>
+</footer>
+</body>
+</html>
